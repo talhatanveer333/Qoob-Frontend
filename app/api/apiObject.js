@@ -2,8 +2,7 @@ import {create} from 'apisauce';
 import AuthStore from '../auth/authStorage';
 
 const apiObject=create({
-    baseURL:'https://safe-hollows-80818.herokuapp.com/api',
-    //baseURL:'http://10.206.11.160:3000/api',
+    baseURL:'http://10.206.11.160:3000/api',
 })
 
 apiObject.addAsyncRequestTransform(async (request)=>{
